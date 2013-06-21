@@ -1,0 +1,29 @@
+{
+    "cmsweb-dev": {
+        "delegate-dn": [
+            "/DC=ch/DC=cern/OU=computers/CN=dashb-ai-401.cern.ch",
+            "/DC=ch/DC=cern/OU=computers/CN=devaso1.cern.ch"
+        ],
+        "transformation": {
+            "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
+            "PrivateMC": "http://common-analysis-framework.cern.ch/CMSRunMCProd.sh"
+        }
+    },
+    "cmsweb-preprod": {
+        "delegate-dn": [
+            "/DC=ch/DC=cern/OU=computers/CN=dashb-ai-401.cern.ch",
+            "/DC=ch/DC=cern/OU=computers/CN=devaso1.cern.ch"
+        ],
+        "transformation": {
+            "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
+            "PrivateMC": "http://common-analysis-framework.cern.ch/CMSRunMCProd.sh"
+        }
+    },
+    "cmsweb-prod": {
+        "delegate-dn": [],
+        "transformation": {
+            "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
+            "PrivateMC": "http://common-analysis-framework.cern.ch/CMSRunMCProd.sh"
+        }
+    }
+}
