@@ -7,6 +7,11 @@
         "transformation": {
             "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
             "PrivateMC": "http://common-analysis-framework.cern.ch/CMSRunMCProd.sh"
+        },
+        "backend-urls" : {
+            "cacheSSL" : "https://voatlas294.cern.ch:25443/server/panda",
+            "baseURL" : "http://pandaserver.cern.ch:25080/server/panda",
+            "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
         }
     },
     "cmsweb-preprod": {
@@ -17,6 +22,11 @@
         "transformation": {
             "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
             "PrivateMC": "http://common-analysis-framework.cern.ch/CMSRunMCProd.sh"
+        },
+        "backend-urls" : {
+            "cacheSSL" : "https://voatlas294.cern.ch:25443/server/panda",
+            "baseURL" : "http://pandaserver.cern.ch:25080/server/panda",
+            "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
         }
     },
     "cmsweb-prod": {
