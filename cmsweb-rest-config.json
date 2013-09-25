@@ -1,8 +1,7 @@
 {
     "cmsweb-dev": {
         "delegate-dn": [
-            "/DC=ch/DC=cern/OU=computers/CN=dashb-ai-401.cern.ch",
-            "/DC=ch/DC=cern/OU=computers/CN=devaso1.cern.ch"
+            "/DC=ch/DC=cern/OU=computers/CN=dashb-ai-*|/DC=ch/DC=cern/OU=computers/CN=*aso*|/DC=ch/DC=cern/OU=computers/CN=poc*"
         ],
         "transformation": {
             "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
