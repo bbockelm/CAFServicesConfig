@@ -1,7 +1,7 @@
 {
     "cmsweb-dev": {
         "delegate-dn": [
-            "/DC=ch/DC=cern/OU=computers/CN=dashb-ai-*|/DC=ch/DC=cern/OU=computers/CN=*aso*|/DC=ch/DC=cern/OU=computers/CN=poc*|/DC=ch/DC=cern/OU=computers/CN=crab3-gwms-*"
+            "/DC=ch/DC=cern/OU=computers/CN=crab3-dev.cern.ch|/DC=ch/DC=cern/OU=computers/CN=dmwm/cmsweb.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-gwms-1.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-gwms-2.cern.ch"
         ],
         "transformation": {
             "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
@@ -11,12 +11,13 @@
             "cacheSSL" : "https://voatlas294.cern.ch:25443/server/panda",
             "baseURL" : "http://pandaserver.cern.ch:25080/server/panda",
             "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
+            "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu"],
+            "htcondorPool" : "glidein-collector.t2.ucsd.edu"
         }
     },
     "cmsweb-preprod": {
         "delegate-dn": [
-            "/DC=ch/DC=cern/OU=computers/CN=dashb-ai-401.cern.ch",
-            "/DC=ch/DC=cern/OU=computers/CN=devaso1.cern.ch"
+            "/DC=ch/DC=cern/OU=computers/CN=dmwm/cmsweb.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-gwms-2.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-dev.cern.ch"
         ],
         "transformation": {
             "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
@@ -26,13 +27,22 @@
             "cacheSSL" : "https://voatlas294.cern.ch:25443/server/panda",
             "baseURL" : "http://pandaserver.cern.ch:25080/server/panda",
             "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
+            "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu"],
+            "htcondorPool" : "glidein-collector.t2.ucsd.edu"
         }
     },
     "cmsweb-prod": {
-        "delegate-dn": [],
+        "delegate-dn": ["/DC=ch/DC=cern/OU=computers/CN=dmwm/cmsweb.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-gwms-2.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-dev.cern.ch"],
         "transformation": {
             "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
             "PrivateMC": "http://common-analysis-framework.cern.ch/CMSRunMCProd.sh"
+        }
+        "backend-urls" : {
+            "cacheSSL" : "https://voatlas294.cern.ch:25443/server/panda",
+            "baseURL" : "http://pandaserver.cern.ch:25080/server/panda",
+            "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
+            "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu"],
+            "htcondorPool" : "glidein-collector.t2.ucsd.edu"
         }
     }
 }
