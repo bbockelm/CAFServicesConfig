@@ -8,8 +8,8 @@
             "PrivateMC": "http://common-analysis-framework.cern.ch/CMSRunMCProd.sh"
         },
         "backend-urls" : {
-            "cacheSSL" : "https://voatlas294.cern.ch:25443/server/panda",
-            "baseURL" : "http://pandaserver.cern.ch:25080/server/panda",
+            "cacheSSL" : "https://cmsweb.cern.ch/crabcache/file",
+            "baseURL" : "https://cmsweb.cern.ch/crabcache/file",
             "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
             "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu"],
             "htcondorPool" : "glidein-collector.t2.ucsd.edu"
