@@ -11,7 +11,7 @@
             "cacheSSL" : "https://cmsweb.cern.ch/crabcache/file",
             "baseURL" : "https://cmsweb.cern.ch/crabcache/file",
             "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
-            "htcondorSchedds" : ["vocms20.cern.ch"],
+            "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu"],
             "htcondorPool" : "glidein-collector.t2.ucsd.edu"
         }
     },
