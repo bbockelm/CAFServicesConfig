@@ -1,7 +1,7 @@
 {
     "cmsweb-dev": {
         "delegate-dn": [
-            "/DC=ch/DC=cern/OU=computers/CN=crab3-dev.cern.ch|/DC=ch/DC=cern/OU=computers/CN=dmwm/cmsweb.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-gwms-1.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-gwms-2.cern.ch"
+            "/DC=ch/DC=cern/OU=computers/CN=crab3-dev.cern.ch|/DC=ch/DC=cern/OU=computers/CN=dmwm/cmsweb.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-gwms-1.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab3-gwms-2.cern.ch|/DC=ch/DC=cern/OU=computers/CN=devaso1.cern.ch"
         ],
         "transformation": {
             "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
