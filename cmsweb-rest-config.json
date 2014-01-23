@@ -10,9 +10,10 @@
         "backend-urls" : {
             "cacheSSL" : "https://cmsweb.cern.ch/crabcache/file",
             "baseURL" : "https://cmsweb.cern.ch/crabcache/file",
-            "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
+            "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda",
             "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu", "vocms20.cern.ch"],
-            "htcondorPool" : "glidein-collector.t2.ucsd.edu"
+            "htcondorPool" : "glidein-collector.t2.ucsd.edu",
+            "poolInfo" : "http://hcc-briantest.unl.edu/pool_status.json"
         }
     },
     "cmsweb-preprod": {
@@ -26,7 +27,7 @@
         "backend-urls" : {
             "cacheSSL" : "https://voatlas294.cern.ch:25443/server/panda",
             "baseURL" : "http://pandaserver.cern.ch:25080/server/panda",
-            "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
+            "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda",
             "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu"],
             "htcondorPool" : "glidein-collector.t2.ucsd.edu"
         }
@@ -36,11 +37,11 @@
         "transformation": {
             "Analysis": "http://common-analysis-framework.cern.ch/CMSRunAnaly.sh",
             "PrivateMC": "http://common-analysis-framework.cern.ch/CMSRunMCProd.sh"
-        }
+        },
         "backend-urls" : {
             "cacheSSL" : "https://voatlas294.cern.ch:25443/server/panda",
             "baseURL" : "http://pandaserver.cern.ch:25080/server/panda",
-            "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda"
+            "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda",
             "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu"],
             "htcondorPool" : "glidein-collector.t2.ucsd.edu"
         }
