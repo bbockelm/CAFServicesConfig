@@ -9,6 +9,7 @@
         },
         "backend-urls" : {
             "cacheSSL" : "https://cmsweb.cern.ch/crabcache/file",
+            "ASOURL" : "https://cmsweb-testbed.cern.ch/couchdb",
             "baseURL" : "https://cmsweb.cern.ch/crabcache/file",
             "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda",
             "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu"],
