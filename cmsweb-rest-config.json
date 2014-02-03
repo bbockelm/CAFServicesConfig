@@ -12,7 +12,7 @@
             "ASOURL" : "https://cmsweb-testbed.cern.ch/couchdb",
             "baseURL" : "https://cmsweb.cern.ch/crabcache/file",
             "baseURLSSL" : "https://pandaserver.cern.ch:25443/server/panda",
-            "htcondorSchedds" : ["crab3test@submit-5.t2.ucsd.edu"],
+            "htcondorSchedds" : ["vocms20.cern.ch"],
             "htcondorPool" : "glidein-collector.t2.ucsd.edu",
             "poolInfo" : "http://hcc-briantest.unl.edu/pool_status.json"
         }
