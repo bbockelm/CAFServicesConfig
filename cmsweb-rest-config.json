@@ -18,7 +18,7 @@
             "htcondorPool" : "glidein-collector-2.t2.ucsd.edu",
             "poolInfo" : "http://hcc-briantest.unl.edu/pool_status.json"
         },
-        "compatible-version": ["3.3.4.rc3", '3.3.5']
+        "compatible-version": ["3.3.4.rc3", "3.3.5"]
     },
     "cmsweb-preprod": {
         "delegate-dn": [
